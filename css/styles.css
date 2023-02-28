@@ -363,26 +363,24 @@ button {
   color: var(--hero-text-color);
 }
 
-.smain-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .smain-list-examples {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
 .cards {
   padding-bottom: 32px;
   border: 1px solid #e7e9fc;
   border-radius: 0px 0px 4px 4px;
-  margin-right: 24px;
+  width: 360px;
   margin-bottom: 48px;
   padding-left: 16px;
 }
 .smain-item {
   width: 360px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .smain-item:nth-last-child(-n + 3) {
