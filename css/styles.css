@@ -48,13 +48,15 @@ button {
   padding-left: 15px;
   padding-right: 15px;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   align-items: center;
 
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
@@ -140,7 +142,7 @@ button {
   margin-right: auto;
   margin-bottom: 48px;
   font-size: 56px;
-  line-height: 1.5;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--hero-text-color);
@@ -239,7 +241,7 @@ button {
   background-color: var(--text-for-logofooter-bg-ourteam-color);
 }
 .team-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
@@ -366,7 +368,7 @@ button {
 .smain-list-examples {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
 }
 
 .cards {
@@ -374,7 +376,6 @@ button {
   border: 1px solid #e7e9fc;
   border-radius: 0px 0px 4px 4px;
   width: 360px;
-  margin-bottom: 48px;
   padding-left: 16px;
 }
 .smain-item {
@@ -390,7 +391,6 @@ button {
 }
 
 .smain-title {
-  margin-top: 32px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
